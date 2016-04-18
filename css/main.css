@@ -1,14 +1,23 @@
+
+
 body { 
 	margin: 0; 
 	padding: 0; 
 	font: 1em "Trebuchet MS", verdana, arial, sans-serif; 
     font-size: 100%;
-	background: #bbb;
+	background: #333;
+    
+    
+}
+
+main{
+    padding-bottom: 40px;
 }
 
 div.container { 
 	margin: auto; 
 	width: 80%; 
+    background: #4EC496;
 }
 
 h1 {
@@ -74,7 +83,29 @@ div.tabs > div {
 div.tabs > div h2 {
 	margin-top: 0;
 }
+
+h2{
+    font-size: 1.5em;
+    font-weight: bold;
+}
+
+h3{
+    font-size: 1em;
+    /*font-weight: bold;*/
+    color: #333;
+}
+h4{
+    font-size: 1em;
+    color: #4C87FF;
+    font-weight: bold;
+}
 		
-.waste {
-	min-height: 1000px;
+section{
+    border-left: outset #333 2px;
+    padding-left: 5px;
+}
+
+footer{
+    border-top: outset #333 2px;
+    padding-top: 5px;
 }
